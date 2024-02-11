@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(35, 14, 50);
+}
+::-webkit-scrollbar {
+  width: 10px; /* Ширина скролбара */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Колір пальця скролбара */
+  border-radius: 6px; /* Радіус кутів пальця скролбара */
+  background-color: rgb(192, 0, 240);
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 25px;
+  }
+}

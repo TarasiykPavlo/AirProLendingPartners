@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito Sans:wght@400;500;600;800;900&display=swap');
+
+
+.LowerBenefitPart {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    box-sizing: border-box;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    width: 488px;
+    height: 160px;
+    background: linear-gradient(180.00deg, rgb(229, 0, 124),rgba(181, 43, 125, 0) 138.75%);
+
+
+
+  }
+  
+  .LowerBenefitPartImg {
+    width: 48px; /* Adjust image size as needed */
+    height: 48px; /* Adjust image size as needed */
+    margin-right: 20px; /* Add margin between image and text */
+    margin-left: 50px;
+  }
+  
+  .LowerBenefitPartInside {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LowerBenefitPartH {
+    margin-bottom: 5px; /* Add margin between header and paragraph */
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .LowerBenefitPartP {
+    margin: 0; /* Reset default margin for paragraph */
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  @media (max-width: 768px) {
+    .LowerBenefitPart{
+      width: 90%;
+
+    }
+    .LowerBenefitPartImg {
+      width: 48px; /* Adjust image size as needed */
+      height: 48px; /* Adjust image size as needed */
+      margin-right: 20px; /* Add margin between image and text */
+      margin-left: 20px;
+    }
+    .LowerBenefitPartInside {
+      display: flex;
+      flex-direction: column;
+      padding-right: 5px;
+    }
+  }

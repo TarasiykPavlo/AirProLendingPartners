@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito Sans:wght@400;500;600;800;900&display=swap');
+
+.steps-container-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-challenge {
+  width: 96.22px;
+  padding: 4px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  background: rgb(98, 29, 191);
+  margin-bottom: 10px;
+}
+
+.steps-header {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.steps-subscribe {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 50px;
+}
+
+.steps-container-section__challenge-solution h2 {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px 0 10px 20px;
+}
+
+.steps-container-section__challenge-solution {
+  border-radius: 8px;
+  width: 1080px;
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    rgb(229, 0, 124),
+    rgba(245, 80, 169, 0) 118.333%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.steps-container-section__challenge-solution p {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin: 0 50px 20px 20px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  width: 1rem;
+}
+.steps-container__section-img-img {
+  width: 400px; /* default width */
+  height: 400px; /* default height */
+}
+.addMargin {
+  margin-left: 90px;
+  margin-right: 0px;
+}
+@media (max-width: 768px){
+  .steps-container-section__challenge-solution {
+    border-radius: 8px;
+    width: 100%;
+    height: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .steps-container-section__challenge-solution {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .steps-container__section-img-img{
+    width: 300px;
+    height: 300px;
+  }
+  
+.steps-container-section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addMargin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.reverse{
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.steps-container-section__challenge-solution p {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin: 20 20px 20px 20px;
+}
+}

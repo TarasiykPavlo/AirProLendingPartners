@@ -1,0 +1,75 @@
+.AlwaysInTouch {
+  background-image: url('../../assets/img/vectors.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  padding: 0 0 70px 0;
+}
+
+.AlwaysInTouchH {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boxButton {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  width: 320px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: rgb(56, 24, 81);
+}
+.box1 {
+  border-right: 1px solid black;
+  border-radius: 20px 0 0 20px;
+}
+
+.box3 {
+  border-radius: 0 20px 20px 0;
+  border-left: 1px solid black;
+}
+
+.boxButtonMain {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .boxButtonMain {
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .box1 {
+    border-bottom: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    border-right: none;
+  }
+
+  .box3 {
+    border-radius: 0 0 20px 20px;
+    border-top: 1px solid black;
+    border-left: none;
+  }
+  .AlwaysInTouch {
+    padding: 70px 0 20px 0;
+  }
+}

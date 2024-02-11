@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito Sans:wght@400;500;600;800;900&display=swap');
+
+.top-list-container {
+  width: 100%;
+  margin: 40px 0 40px 0;
+}
+
+.top-list-container__description-header {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.top-list-container__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-list-container__description-paragraph {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  width: 310px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0 65px 0;
+}
+@media (max-width: 768px){
+  .top-list-container {
+    width: 100%;
+    margin: 80px 0 0 0;
+
+  }
+  .top-list-container__description-paragraph {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 20px 20px 10px;
+  }
+  .top_list__ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .top-list-container__description-header {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+  }
+}

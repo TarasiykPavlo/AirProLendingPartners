@@ -1,0 +1,37 @@
+.steps-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0 70px;
+}
+
+.steps-container__header {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.steps-container__paragraph {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin: 24px 0 100px 0;
+}
+@media (max-width: 768px){
+  .steps-container__paragraph {
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    
+    margin: 24px 0 10px 0;
+}
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito Sans:wght@400;500;600;800;900&display=swap');
+
+.home__header {
+  font-family: Nunito Sans;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0%;
+  margin: 42px 0 0 240px;
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  height: 750px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(34, 15, 48, 0), rgb(36, 14, 51) 100%),
+    linear-gradient(119.15deg, rgb(112, 0, 255) 2%, rgb(192, 0, 240) 84.93%);
+  color: rgb(255, 255, 255);
+}
+
+.home_description {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  width: 585.01px;
+  height: 83px;
+  margin-top: 24px;
+}
+
+.home__member-description {
+  color: rgb(255, 255, 255);
+  width: 510px;
+  font-family:
+    Nunito Sans,
+    sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.home__member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 160px;
+  position: relative;
+}
+
+.home__member-logo {
+  width: 477px;
+  height: auto;
+}
+
+.home__member-revenue {
+  width: 171px;
+  height: 171px;
+  background-color: rgb(0, 90, 255);
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__member-text {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.home__member-text:last-child {
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        180deg,
+        rgba(34, 15, 48, 0),
+        rgb(36, 14, 51) 100%
+      ),
+      linear-gradient(119.15deg, rgb(112, 0, 255) 2%, rgb(192, 0, 240) 84.93%);
+    color: rgb(255, 255, 255);
+    padding-top: 0;
+  }
+
+  .home__header {
+    width: 300px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.20000000298023224;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Nunito Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .home_description {
+    width: 315px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .home__member {
+    margin: 0;
+  }
+
+  .home__member-logo {
+    width: 269px;
+    height: 269px;
+    flex-shrink: 0;
+
+    padding: 0;
+  }
+
+  .home__member-description {
+    display: none;
+  }
+
+  .home_description-btn {
+    width: 161px;
+    height: 45px;
+    align-self: center;
+    font-size: 16px;
+    border: none;
+  }
+
+  .home__member-revenue {
+    width: 91px;
+    height: 91px;
+    flex-shrink: 0;
+    background-color: rgb(0, 90, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home__member-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-size: 18.737px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .home__member-text:last-child {
+    color: #fff;
+    font-family: 'Nunito Sans';
+    font-size: 12.491px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}

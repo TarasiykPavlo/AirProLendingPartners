@@ -1,0 +1,18 @@
+<svg width="32.000000" height="14.110107" viewBox="0 0 32 14.1101" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_383">
+			<rect id="email.svg" width="19.989166" height="14.110000" transform="translate(0.005859 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_382">
+			<rect id="email.svg fill" width="32.000000" height="14.110000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip1_382)">
+		<g clip-path="url(#clip1_383)">
+			<path id="Vector" d="M1.00531 0L18.9956 0C19.2607 0 19.5149 0.0825195 19.7023 0.229492C19.8897 0.376709 19.995 0.575928 19.995 0.783936L19.995 13.3262C19.995 13.5339 19.8897 13.7334 19.7023 13.8804C19.5149 14.0273 19.2607 14.1101 18.9956 14.1101L1.00531 14.1101C0.740234 14.1101 0.486023 14.0273 0.298584 13.8804C0.111145 13.7334 0.00585938 13.5339 0.00585938 13.3262L0.00585938 0.783936C0.00585938 0.575928 0.111145 0.376709 0.298584 0.229492C0.486023 0.0825195 0.740234 0 1.00531 0ZM10.0604 6.8064L3.65189 2.53833L2.35757 3.73291L10.0734 8.87134L17.6503 3.729L16.343 2.54297L10.0614 6.8064L10.0604 6.8064Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

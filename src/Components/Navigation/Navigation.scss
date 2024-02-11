@@ -1,0 +1,28 @@
+.navigation-container__links li,
+.navigation-container__links a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navigation-container__links {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-container__links button {
+  border: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-family: Nunito Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0%;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(192, 0, 240);
+  }
+}

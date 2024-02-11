@@ -1,0 +1,47 @@
+.upper_table {
+  border-collapse: collapse;
+  width: 100%; /* Set the width to 100% */
+  color: rgb(223, 186, 244);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+thead {
+  background-color: rgb(79, 0, 141);
+}
+
+th,
+td {
+  border: 1px solid rgb(79, 0, 141); /* Apply border only to table cells */
+  padding: 20px;
+  text-align: center;
+}
+.partnership p,
+.partnership li,
+.partnership ul,
+.partnership ol {
+  color: rgb(223, 186, 244);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  td {
+    border: 1px solid rgb(79, 0, 141); /* Apply border only to table cells */
+    padding: 5px;
+    text-align: center;
+  }
+  thead {
+    font-weight: 200;
+    line-height: normal;
+  }
+  th {
+    padding: 5px;
+  }
+}

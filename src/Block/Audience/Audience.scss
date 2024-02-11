@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito Sans:wght@400;500;600;800;900&display=swap');
+
+.headerDivAudience{
+    color: rgb(255, 255, 255);
+font-family: Nunito Sans;
+font-size: 36px;
+font-weight: 800;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+padding: auto;
+margin: 2%;
+}
+.paragraphDivAudience{
+    color: rgb(255, 255, 255);
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin: 2%;
+}
+@media (max-width: 768px){
+   .divAudience{margin-top: 65px;} 
+}
+
