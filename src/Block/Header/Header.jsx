@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/img/Logo.svg';
 import { ConfigProvider, Select } from 'antd';
 import './Header.scss';
 import { useState, useEffect } from 'react';
