@@ -19,7 +19,7 @@
     "react-dom": "^18.2.0",
     "react-select": "^5.8.0",
     "scrollreveal": "^4.0.9",
-    "sort-by": "^1.2.0",
+    "sort-by": "^0.0.2",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
