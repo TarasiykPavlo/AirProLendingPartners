@@ -25,7 +25,7 @@
   letter-spacing: 0%;
   margin: 24px 0 100px 0;
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px) and (max-width: 1600px){
   .steps-container__paragraph {
     
     font-size: 20px;

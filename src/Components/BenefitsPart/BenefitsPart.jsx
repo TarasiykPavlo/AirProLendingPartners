@@ -7,7 +7,7 @@ const StyledComponent = styled.span`
   height: 8px;
   background: rgb(230, 22, 133);
   margin: 20px 0;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 840px) {
     width: 8px; /* Adjusted width for mobile */
     height: 8px; /* Adjusted height for mobile */
     margin: 10px 0; /* Adjusted margin for mobile */
@@ -18,7 +18,7 @@ const StyledDiv = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 840px) {
     height: auto; /* Adjusted height for mobile */
     padding-top: 50px;
   }
@@ -31,7 +31,7 @@ const StyledPUpper = styled.p`
   line-height: 44px;
   letter-spacing: 0%;
   text-align: center;
-  // @media screen and (max-width: 768px) {
+  // @media screen and (max-width: 840px) {
   //   font-size: 30px; /* Adjusted font size for mobile */
   //   line-height: 40px; /* Adjusted line height for mobile */
 `;
@@ -43,7 +43,7 @@ const StyledPUnder = styled.p`
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
-  // @media screen and (max-width: 768px) {
+  // @media screen and (max-width: 840px) {
   //   font-size: 14px; /* Adjusted font size for mobile */
   //   line-height: 20px; /* Adjusted line height for mobile */
 `;

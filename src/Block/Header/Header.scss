@@ -90,7 +90,7 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1450px) {
   .container > .container_header-nav,
   .container > .container__buttons,
   .container > .container_header {
@@ -282,7 +282,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1450px) {
   .adaptive-header {
     display: none;
   }
@@ -296,7 +296,7 @@
 }
 
 .navigation-container__links {
-  width: 1000px;
+  width: 850px;
   display: flex;
   justify-content: space-between;
 }
@@ -306,7 +306,7 @@
   background: none;
   color: rgb(255, 255, 255);
   font-family: Nunito Sans;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: 0%;
