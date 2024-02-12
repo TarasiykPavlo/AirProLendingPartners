@@ -1,4 +1,4 @@
-import './Partnership.scss';
+import './PartnerShip.scss';
 import PartnershipTable from '../../Components/PartnershipTable/PartnershipTable';
 export default function PartnerShip(params) {
   return (
