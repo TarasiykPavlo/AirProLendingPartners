@@ -1,8 +1,8 @@
 import './PartnerShip.scss';
 import PartnershipTable from '../../Components/PartnershipTable/PartnershipTable';
-export default function PartnerShip(params) {
+export default function PartnerShip() {
   return (
-    <div className="partnership" id="Partnership">
+    <div className="partnership">
       <div className="program">
         <div className="program_text">Partnership Program</div>
       </div>
