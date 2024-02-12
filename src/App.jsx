@@ -1,16 +1,16 @@
 import Wave from './Components/Wave/Wave';
-import Audience from './Block/Audience/Audience';
-import Home from './Block/Home/Home';
+import Audience from '../src/Block/Audience/Audience';
+import Home from '../src/Block/Home/Home';
 import UpperBenefit from '../src/Block/UpperBenefit/UpperBenefit';
-import Footer from './Block/Footer/Footer';
-import TopList from './Block/TopList/TopList';
-import Steps from './Block/Steps/Steps';
-import HowToStart from './Block/HowToStart/HowToStart';
-import LowerBenefit from './Block/LowerBenefit/LowerBenefit';
-import AlwaysInTouch from './Block/AlwaysInTouch/AlwaysInTouch';
-import StartEarn from './Block/StartEarn/StartEarn';
-import Header from './Block/Header/Header';
-import PartnerShip from './Block/PartnerShip/Partnership';
+import Footer from '../src/Block/Footer/Footer';
+import TopList from '../src/Block/TopList/TopList';
+import Steps from '../src/Block/Steps/Steps';
+import HowToStart from '../src/Block/HowToStart/HowToStart';
+import LowerBenefit from '../src/Block/LowerBenefit/LowerBenefit';
+import AlwaysInTouch from '../src/Block/AlwaysInTouch/AlwaysInTouch';
+import StartEarn from '../src/Block/StartEarn/StartEarn';
+import Header from '../src/Block/Header/Header';
+import PartnerShip from '../src/Block/Partnership/PartnerShip';
 import './App.scss';
 
 export default function App() {
