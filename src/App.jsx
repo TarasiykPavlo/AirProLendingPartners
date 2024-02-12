@@ -10,7 +10,7 @@ import LowerBenefit from './Block/LowerBenefit/LowerBenefit';
 import AlwaysInTouch from './Block/AlwaysInTouch/AlwaysInTouch';
 import StartEarn from './Block/StartEarn/StartEarn';
 import Header from './Block/Header/Header';
-import PartnerShip from './Block/PartnerShip/PartnerShip.jsx';
+import PartnerShip from './Block/PartnerShip/PartnerShip';
 import './App.scss';
 
 export default function App() {
