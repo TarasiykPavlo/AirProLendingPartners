@@ -2,9 +2,13 @@ import logo from '../../assets/img/Logo.svg';
 import { ConfigProvider, Select } from 'antd';
 import './Header.scss';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import useUser from '../../hooks/useUser';
+import { useLogout } from '../../hooks/useLogout';
 function Header() {
   const [isChecked, setIsChecked] = useState(false);
-
+  const {user, isLoading} = useUser();
+  const {logout} = useLogout()
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
     if (isChecked === false) {
@@ -102,8 +106,15 @@ function Header() {
           </div>
         </div>
         <div className="container__buttons">
-          <button className="container_buttons-log">Log in</button>
-          <button className="container_buttons-log active">Sign Up</button>
+          {user ? (
+            <button onClick={logout} className="container_buttons-log">Logout</button>
+          ) : (
+            <>
+             <Link to={'login'} className="container_buttons-log">Log in</Link>
+            <Link to={'signup'} className="container_buttons-log active">Sign Up</Link>
+            </>
+          )}
+         
           <div className="container_buttons-select">
             <ConfigProvider
               theme={{
