@@ -12,10 +12,28 @@ import StartEarn from '../src/Block/StartEarn/StartEarn';
 import Header from '../src/Block/Header/Header';
 import PartnerShip from '../src/Block/Partnership/PartnerShip';
 import './App.scss';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LoginAndSignUp from './pages/LoginAndSignUp/LoginAndSignUp';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 export default function App() {
+  const queryClient = new QueryClient({
+    defaultOptions: {
+      queries: {
+        staleTime: 0,
+      },
+    },
+  });
+
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
+      <ReactQueryDevtools initialIsOpen={false} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="login" element={<LoginAndSignUp />}></Route>
+          <Route path="signup" element={<LoginAndSignUp />}></Route>
+        </Routes>
       <Header />
       <Home />
       <UpperBenefit />
@@ -30,6 +48,7 @@ export default function App() {
       <StartEarn />
       <AlwaysInTouch />
       <Footer />
-    </>
+      </BrowserRouter>
+    </QueryClientProvider>
   );
 }
