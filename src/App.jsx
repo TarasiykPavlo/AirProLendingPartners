@@ -11,11 +11,13 @@ import AlwaysInTouch from '../src/Block/AlwaysInTouch/AlwaysInTouch';
 import StartEarn from '../src/Block/StartEarn/StartEarn';
 import Header from '../src/Block/Header/Header';
 import PartnerShip from '../src/Block/Partnership/PartnerShip';
+import Auth from './pages/Auth/Auth';
 import './App.scss';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export default function App() {
   return (
-    <>
+    <div>
       <Header />
       <Home />
       <UpperBenefit />
@@ -30,6 +32,6 @@ export default function App() {
       <StartEarn />
       <AlwaysInTouch />
       <Footer />
-    </>
+    </div>
   );
 }
